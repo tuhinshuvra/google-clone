@@ -60,7 +60,57 @@ const SearchPage = () => {
                 </div>
             </div>
             <div className='searchPage_results'>
+                <p className='searchPage_resultCount'></p>
+                About 1,540,000,000 results (0.70 seconds)
 
+                <div className='searchPage_result'>
+                    <a href="" className='searchPage_resultLink'>
+                        <img className='searchPage_resultImage' src="https://en.wikipedia.org/wiki/Bangladesh" alt="" />
+                        Bangladesh - Wikipedia
+                    </a>
+
+                    <a href="https://www.britannica.com/place/Bangladesh">
+                        Bangladesh | History, Capital, Map, Flag, Population, & Facts
+                    </a>
+                    <a href="" className='searchPage_resultTitle'>
+                        <h2>Bangladesh</h2>
+                    </a>
+                    <p className='searchPage_resultdescription'>
+                        Bangladesesh is my motherland I love this country as my mother.
+                    </p>
+                </div>
+                <div className='searchPage_result'>
+                    <a href="" className='searchPage_resultLink'>
+                        <img className='searchPage_resultImage' src="https://en.wikipedia.org/wiki/Bangladesh" alt="" />
+                        Bangladesh - Wikipedia
+                    </a>
+
+                    <a href="https://www.britannica.com/place/Bangladesh">
+                        Bangladesh | History, Capital, Map, Flag, Population, & Facts
+                    </a>
+                    <a href="" className='searchPage_resultTitle'>
+                        <h2>Bangladesh</h2>
+                    </a>
+                    <p className='searchPage_resultdescription'>
+                        Bangladesesh is my motherland I love this country as my mother.
+                    </p>
+                </div>
+                <div className='searchPage_result'>
+                    <a href="" className='searchPage_resultLink'>
+                        <img className='searchPage_resultImage' src="https://en.wikipedia.org/wiki/Bangladesh" alt="" />
+                        Bangladesh - Wikipedia
+                    </a>
+
+                    <a href="https://www.britannica.com/place/Bangladesh">
+                        Bangladesh | History, Capital, Map, Flag, Population, & Facts
+                    </a>
+                    <a href="" className='searchPage_resultTitle'>
+                        <h2>Bangladesh</h2>
+                    </a>
+                    <p className='searchPage_resultdescription'>
+                        Bangladesesh is my motherland I love this country as my mother.
+                    </p>
+                </div>
             </div>
         </div>
     )
