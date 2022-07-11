@@ -31,9 +31,11 @@
 
 .search_button button {
     margin: 5px;
-    padding: 10px 15px;
+    padding: 11px 16px;
+    color: white;
     border: none;
-    background-color: rgb(219, 215, 215);
+    font-weight: 700;
+    background-color: #303134;
     /* text-transform: bold; */
     text-transform: inherit;
     border-radius: 5px;
@@ -42,8 +44,7 @@
 .search_button button:hover {
     margin: 5px;
     padding: 10px 15px;
-    background-color: rgb(219, 215, 215);
-    color: black;
-    border: 1px solid #908f8f;
+    background-color: #303134;
+    border: 1px solid #d1cfcf;
     border-radius: 5px;
 }

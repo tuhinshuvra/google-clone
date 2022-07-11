@@ -3,7 +3,7 @@ import './Search.css';
 import SearchIcon from '@mui/icons-material/Search';
 import MicIcon from '@mui/icons-material/Mic';
 
-const Search = () => {
+const Search = ({ hidebuttons }) => {
     return (
         <form className='search'>
             <div className='search_input'>
@@ -11,11 +11,13 @@ const Search = () => {
                 <input />
                 <MicIcon />
             </div>
-            <div className='search_button'>
-                <button type='submit' varient="outlined">Google Search</button>
-                <button varient="outlined">I'm Felling Lucky</button>
+            {
+                hidebuttons && <div className='search_button'>
+                    <button type='submit' varient="outlined">Google Search</button>
+                    <button varient="outlined">I'm Felling Lucky</button>
 
-            </div>
+                </div>
+            }
         </form>
     )
 }
